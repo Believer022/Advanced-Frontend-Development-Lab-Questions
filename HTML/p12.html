@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Application Form</title>
+</head>
+<body>
+
+  <h2>Job Application Form</h2>
+
+  <form>
+    <table bordercolor="red" bgcolor="aqua">
+
+      <tr>
+        <th>Name</th>
+        <td><input type="text" name="name" required></td>
+      </tr>
+
+      <tr>
+        <th>Email</th>
+        <td><input type="email" name="email" required></td>
+      </tr>
+
+      <tr>
+        <th>Upload Resume</th>
+        <td><input type="file" name="resume" accept=".pdf,.doc,.docx" required></td>
+      </tr>
+
+      <tr>
+        <th>Job Position</th>
+        <td>
+          <select name="position" required>
+            <option value="">--Select Position--</option>
+            <option value="frontend">Frontend Developer</option>
+            <option value="backend">Backend Developer</option>
+            <option value="fullstack">Full Stack Developer</option>
+            <option value="designer">UI/UX Designer</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <th>Cover Letter</th>
+        <td><textarea name="cover_letter"></textarea></td>
+      </tr>
+
+      <tr>
+        <th>Submit</th>
+        <td><input type="submit" value="Apply Now"></td>
+      </tr>
+
+    </table>
+  </form>
+
+</body>
+</html>
