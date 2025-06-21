@@ -1,0 +1,70 @@
+<!-- Create three unorderedlist having six element in each. First list must use display:block, second list must use display:inline and third list must use display:inline-block -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* display: block – Each <li> appears on a new line (default behavior). */
+    .list-block li {
+      display: block;
+      background-color: #e0f7fa;
+      margin: 5px;
+      padding: 8px;
+    }
+
+    /* display: inline – All <li>s appear on the same line without box dimensions. */
+    .list-inline li {
+      display: inline;
+      background-color: #ffe0b2;
+      margin: 5px;
+      padding: 8px;
+    }
+
+    /* display: inline-block – All <li>s appear on the same line but retain box properties like padding and width. */
+    .list-inline-block li {
+      display: inline-block;
+      background-color: #c8e6c9;
+      margin: 5px;
+      padding: 8px;
+    }
+
+    ul {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>List 1: display: block</h2>
+  <ul class="list-block">
+    <li>Block Item 1</li>
+    <li>Block Item 2</li>
+    <li>Block Item 3</li>
+    <li>Block Item 4</li>
+    <li>Block Item 5</li>
+    <li>Block Item 6</li>
+  </ul>
+
+  <h2>List 2: display: inline</h2>
+  <ul class="list-inline">
+    <li>Inline 1</li>
+    <li>Inline 2</li>
+    <li>Inline 3</li>
+    <li>Inline 4</li>
+    <li>Inline 5</li>
+    <li>Inline 6</li>
+  </ul>
+
+  <h2>List 3: display: inline-block</h2>
+  <ul class="list-inline-block">
+    <li>Inline-block 1</li>
+    <li>Inline-block 2</li>
+    <li>Inline-block 3</li>
+    <li>Inline-block 4</li>
+    <li>Inline-block 5</li>
+    <li>Inline-block 6</li>
+  </ul>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!-- Create three unorderedlist having six element in each. First list must use display:block, second list must use display:inline and third list must use display:inline-block -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* display: block – Each <li> appears on a new line (default behavior). */
+    .list-block li {
+      display: block;
+      background-color: #e0f7fa;
+      margin: 5px;
+      padding: 8px;
+    }
+
+    /* display: inline – All <li>s appear on the same line without box dimensions. */
+    .list-inline li {
+      display: inline;
+      background-color: #ffe0b2;
+      margin: 5px;
+      padding: 8px;
+    }
+
+    /* display: inline-block – All <li>s appear on the same line but retain box properties like padding and width. */
+    .list-inline-block li {
+      display: inline-block;
+      background-color: #c8e6c9;
+      margin: 5px;
+      padding: 8px;
+    }
+
+    ul {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>List 1: display: block</h2>
+  <ul class="list-block">
+    <li>Gaban</li>
+    <li>Godan</li>
+    <li>Atomic Habits</li>
+    <li>Mindset</li>
+    <li>Deep Work</li>
+    <li>Tools of Titans</li>
+  </ul>
+
+  <h2>List 2: display: inline</h2>
+  <ul class="list-inline">
+    <li>Gaban</li>
+    <li>Godan</li>
+    <li>Atomic Habits</li>
+    <li>Mindset</li>
+    <li>Deep Work</li>
+    <li>Tools of Titans</li>
+  </ul>
+
+  <h2>List 3: display: inline-block</h2>
+  <ul class="list-inline-block">
+    <li>Gaban</li>
+    <li>Godan</li>
+    <li>Atomic Habits</li>
+    <li>Mindset</li>
+    <li>Deep Work</li>
+    <li>Tools of Titans</li>
+  </ul>
+
+</body>
+</html>
