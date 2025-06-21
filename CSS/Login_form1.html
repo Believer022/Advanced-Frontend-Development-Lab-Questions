@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 450px;
+      border: 3px solid green;
+      margin: 50px auto;
+      background-color: white;
+    }
+
+    .header {
+      background-color: #28a745;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .form-box {
+      padding: 30px 40px;
+    }
+
+    .row {
+      margin-bottom: 20px;
+    }
+
+    .label {
+      display: inline-block;
+      width: 100px;
+      font-weight: bold;
+      color: orange;
+      vertical-align: top;
+    }
+
+    .input-box {
+      display: inline-block;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 200px;
+      padding: 8px;
+      border: 2px solid orange;
+    }
+
+    .btn {
+      display: block;
+      width: 200px;
+      padding: 12px;
+      background-color: orange;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      margin: 20px auto 0;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">Login Form</div>
+    <div class="form-box">
+      <form>
+        <div class="row">
+          <label class="label" for="userid">userid</label>
+          <div class="input-box">
+            <input type="text" id="userid" name="userid">
+          </div>
+        </div>
+        <div class="row">
+          <label class="label" for="password">password</label>
+          <div class="input-box">
+            <input type="password" id="password" name="password">
+          </div>
+        </div>
+        <button class="btn" type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
+
